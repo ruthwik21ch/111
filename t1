@@ -1,4 +1,7 @@
 =begin
+
+#Program 1
+
 puts "Hello,Rutwik"
 print"enter the string:"
 str=gets.chomp
@@ -8,6 +11,7 @@ n.times do
     puts str
 end
 
+#Program 2
 
 $pi=3.14
 print"enter the radius:"
@@ -25,6 +29,7 @@ lastname=gets.chomp
 fullname=firstname+" "+lastname
 puts fullname.reverse
 
+#Program 3
 
 print"Enter the side length:"
 s=gets.to_i
@@ -32,6 +37,8 @@ areas=s*s
 peris=4*s
 puts "area of square: #{areas}"
 puts "perimeter of square: #{peris}"
+
+#Program 4
 
 print"Enter the length of Rectangle:"
 l=gets.to_i
@@ -43,6 +50,9 @@ puts "area of Rectangle: #{arear}"
 puts "perimeter of Rectangle: #{perir}"
 
 =end
+
+#Program 5
+
 print"Enter Your Firstname:"
 firstname=gets.chomp
 print"Enter Your Lastname:"
