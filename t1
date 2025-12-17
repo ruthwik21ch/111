@@ -49,7 +49,7 @@ perir=2*(l+b)
 puts "area of Rectangle: #{arear}"
 puts "perimeter of Rectangle: #{perir}"
 
-=end
+
 
 #Program 5
 
@@ -64,3 +64,20 @@ state=gets.chomp
 print"Enter Your Age:"
 age=gets.to_i
 puts "Hello Iam #{firstname} #{lastname},my age is #{age}.Iam from #{pob},#{state}"
+
+
+print"Enter the value of a:"
+a=gets.to_i
+print"Enter the value of b:"
+b=gets.to_i
+print"Enter the value of c:"
+c=gets.to_i
+if a>b && a>c
+    puts "a is greatest integer: #{a}"
+elsif  b>a && b>c
+    puts "b is greatest integer: #{b}"
+else 
+    puts "c is greatest integer: #{c}"
+end
+
+=end
